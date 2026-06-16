@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets - kabhi commit nahi karna
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test coverage (baad mein agar tests add kiye)
+coverage/
