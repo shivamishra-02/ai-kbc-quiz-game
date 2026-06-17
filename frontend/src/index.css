@@ -48,6 +48,40 @@ body {
   color: transparent;
 }
 
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.text-gradient-neon-animated {
+  background: linear-gradient(90deg, var(--color-violet), var(--color-cyan), var(--color-gold), var(--color-violet));
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-shift 6s ease infinite;
+}
+
+/* Diagonal light sweep on hover - used on the primary CTA buttons */
+.shine-button {
+  position: relative;
+  overflow: hidden;
+}
+.shine-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+}
+.shine-button:hover::before {
+  left: 125%;
+}
+
 /* Always show a visible focus ring - never rely on the browser default alone */
 :focus-visible {
   outline: 2px solid var(--color-cyan);
