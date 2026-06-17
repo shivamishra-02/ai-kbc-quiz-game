@@ -10,6 +10,7 @@ export function errorHandler(err, req, res, next) {
   res.status(status).json({
     success: false,
     error: message,
+    ...(err.details && { details: err.details }),
   });
 }
 

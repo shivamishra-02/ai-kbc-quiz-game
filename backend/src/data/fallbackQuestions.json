@@ -1,0 +1,137 @@
+[
+  {
+    "id": "fb-1",
+    "question": "What does \"LLM\" stand for in the context of AI?",
+    "options": ["Large Language Model", "Logical Learning Mechanism", "Linear Language Model", "Long-term Learning Module"],
+    "correctAnswer": "Large Language Model",
+    "explanation": "LLM stands for Large Language Model - a type of AI model trained on huge amounts of text to understand and generate human-like language.",
+    "difficulty": "easy",
+    "hint": "Both 'L's in the name relate to the model's scale and what it works with."
+  },
+  {
+    "id": "fb-2",
+    "question": "Which company created the GPT series of language models?",
+    "options": ["OpenAI", "Google", "Meta", "Microsoft"],
+    "correctAnswer": "OpenAI",
+    "explanation": "OpenAI developed the GPT (Generative Pre-trained Transformer) series, including GPT-3, GPT-4, and beyond.",
+    "difficulty": "easy",
+    "hint": "This company's own name literally contains the word 'open'."
+  },
+  {
+    "id": "fb-3",
+    "question": "What is the core neural network architecture behind most modern LLMs?",
+    "options": ["Transformer", "Convolutional Neural Network", "Decision Tree", "Support Vector Machine"],
+    "correctAnswer": "Transformer",
+    "explanation": "The Transformer architecture, introduced in the 2017 paper 'Attention Is All You Need,' underpins nearly all modern LLMs.",
+    "difficulty": "easy",
+    "hint": "It was introduced in a famous paper literally titled 'Attention Is All You Need.'"
+  },
+  {
+    "id": "fb-4",
+    "question": "Which company developed the open-weight Llama family of models?",
+    "options": ["Meta", "Google", "Anthropic", "Amazon"],
+    "correctAnswer": "Meta",
+    "explanation": "Meta (formerly Facebook) developed and open-sourced the Llama family of large language models.",
+    "difficulty": "easy",
+    "hint": "This company also owns Instagram and WhatsApp."
+  },
+  {
+    "id": "fb-5",
+    "question": "In machine learning, what does \"fine-tuning\" mean?",
+    "options": ["Further training a pre-trained model on a specific dataset", "Tuning a model's hardware clock speed", "Compressing a model to run on mobile devices", "Encrypting a model's weights for security"],
+    "correctAnswer": "Further training a pre-trained model on a specific dataset",
+    "explanation": "Fine-tuning takes an already pre-trained model and continues training it on a smaller, specialized dataset to adapt it for a specific task.",
+    "difficulty": "medium",
+    "hint": "Think about adapting something that already exists, rather than starting from scratch."
+  },
+  {
+    "id": "fb-6",
+    "question": "What is a \"token\" in the context of how LLMs process text?",
+    "options": ["A unit of text the model processes, like a word or sub-word", "A cryptocurrency used to pay for API access", "A type of neural network layer", "A security key used to authenticate API requests"],
+    "correctAnswer": "A unit of text the model processes, like a word or sub-word",
+    "explanation": "LLMs break text into tokens - small chunks that can be whole words, parts of words, or punctuation - and process the text token by token.",
+    "difficulty": "medium",
+    "hint": "When you check an LLM API's pricing page, this is usually the unit you're billed per."
+  },
+  {
+    "id": "fb-7",
+    "question": "What mechanism allows a model to focus on relevant parts of the input when generating each word of output?",
+    "options": ["Attention mechanism", "Backpropagation", "Gradient clipping", "Dropout"],
+    "correctAnswer": "Attention mechanism",
+    "explanation": "The attention mechanism lets the model weigh how relevant each part of the input is when producing each part of the output.",
+    "difficulty": "medium",
+    "hint": "Its name describes exactly what it does - focusing on what matters."
+  },
+  {
+    "id": "fb-8",
+    "question": "What does RAG stand for in modern LLM application design?",
+    "options": ["Retrieval-Augmented Generation", "Random Access Generation", "Recursive Answer Grouping", "Rule-based Adaptive Grammar"],
+    "correctAnswer": "Retrieval-Augmented Generation",
+    "explanation": "RAG combines a retrieval step (searching relevant documents) with a generation step (the LLM writing an answer using that context).",
+    "difficulty": "medium",
+    "hint": "It combines a search step with a writing step."
+  },
+  {
+    "id": "fb-9",
+    "question": "Which of these is a database purpose-built for storing and searching embeddings?",
+    "options": ["Pinecone", "PostgreSQL", "SQLite", "Microsoft Excel"],
+    "correctAnswer": "Pinecone",
+    "explanation": "Pinecone is a vector database designed specifically for storing embeddings and performing fast similarity search.",
+    "difficulty": "medium",
+    "hint": "Unlike the other options, this one wasn't designed as a general-purpose database."
+  },
+  {
+    "id": "fb-10",
+    "question": "What term describes an LLM confidently generating information that is factually incorrect?",
+    "options": ["Hallucination", "Overfitting", "Underflow", "Regression"],
+    "correctAnswer": "Hallucination",
+    "explanation": "Hallucination refers to an LLM producing plausible-sounding but false or fabricated information.",
+    "difficulty": "medium",
+    "hint": "The term borrows from a word usually used for perceiving things that aren't really there."
+  },
+  {
+    "id": "fb-11",
+    "question": "What does an LLM's \"context window\" refer to?",
+    "options": ["The maximum amount of text the model can consider at once", "The time period during which the model was trained", "The number of GPUs used to train the model", "The screen size of the device displaying the chat"],
+    "correctAnswer": "The maximum amount of text the model can consider at once",
+    "explanation": "The context window is the maximum number of tokens an LLM can take into account in a single request, including both the prompt and its own response.",
+    "difficulty": "hard",
+    "hint": "Go past it in a long conversation, and the model effectively 'forgets' the earliest parts."
+  },
+  {
+    "id": "fb-12",
+    "question": "Groq's fast inference speeds come from a custom chip design called what?",
+    "options": ["LPU (Language Processing Unit)", "TPU (Tensor Processing Unit)", "Standard Nvidia GPUs", "Quantum processing chip"],
+    "correctAnswer": "LPU (Language Processing Unit)",
+    "explanation": "Groq built a custom chip called the LPU (Language Processing Unit), specifically designed for fast LLM inference rather than general-purpose computing.",
+    "difficulty": "hard",
+    "hint": "It's not the same chip Google uses for its own AI workloads, and it's not a standard graphics chip either."
+  },
+  {
+    "id": "fb-13",
+    "question": "What does RLHF stand for, a common technique for aligning LLM behavior with human preferences?",
+    "options": ["Reinforcement Learning from Human Feedback", "Recursive Learning with Heuristic Functions", "Random Layer Hyperparameter Fitting", "Rule-based Learning for Human Factors"],
+    "correctAnswer": "Reinforcement Learning from Human Feedback",
+    "explanation": "RLHF uses human ratings of model outputs as a reward signal to fine-tune the model toward more helpful, preferred responses.",
+    "difficulty": "hard",
+    "hint": "Humans rank or rate outputs, and that feedback becomes the training signal."
+  },
+  {
+    "id": "fb-14",
+    "question": "When a model is described as having \"70B parameters,\" what does that number represent?",
+    "options": ["The number of learnable weights in the model", "The number of training examples it was shown", "The number of programming languages it supports", "The number of GPUs needed to run it"],
+    "correctAnswer": "The number of learnable weights in the model",
+    "explanation": "Parameter count refers to the number of learnable weights inside the neural network, which is one rough indicator of a model's scale and capacity.",
+    "difficulty": "hard",
+    "hint": "It's the number quoted right after the model's name, and it's about the model's internals, not its training data or hardware."
+  },
+  {
+    "id": "fb-15",
+    "question": "What is \"prompt engineering\"?",
+    "options": ["The practice of carefully crafting inputs to get better outputs from an AI model", "A hardware design process used for AI accelerator chips", "A method for compressing neural network weights", "A type of automated software unit testing"],
+    "correctAnswer": "The practice of carefully crafting inputs to get better outputs from an AI model",
+    "explanation": "Prompt engineering is the skill of writing and structuring prompts to reliably get the desired behavior or output from an AI model.",
+    "difficulty": "hard",
+    "hint": "It's less about writing code and more about wording."
+  }
+]
