@@ -33,7 +33,7 @@ A premium, AI-powered "Kaun Banega Crorepati"-style quiz game. Questions on AI, 
 
 | | |
 |---|---|
-| 🎮 **Play the game** | [https://your-app.vercel.app](https://your-app.vercel.app) <!-- TODO: replace with your real Vercel URL --> |
+| 🎮 **Play the game** | [https://ai-kbc-quiz-game.vercel.app](https://ai-kbc-quiz-game.vercel.app/) <!-- TODO: replace with your real Vercel URL --> |
 | ⚙️ **Backend health check** | [https://ai-kbc-quiz-by-shivam-mishra.onrender.com/health](https://ai-kbc-quiz-by-shivam-mishra.onrender.com/health) |
 
 > Note: the backend runs on Render's free tier, which spins down after 15 minutes of inactivity. If the game takes 30-60 seconds to start on first load, that's just the server waking up — it'll be fast after that.
