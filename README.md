@@ -24,7 +24,7 @@ A premium, AI-powered "Kaun Banega Crorepati"-style quiz game. Questions on AI, 
 <br>
 
 <div align="center">
-  <img src="./home.png" alt="AI KBC home screen" width="800">
+  <img src="./home_page.png" alt="AI KBC home screen" width="800">
 </div>
 
 <br>
